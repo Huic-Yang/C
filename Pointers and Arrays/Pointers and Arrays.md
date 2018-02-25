@@ -7,7 +7,7 @@ A pointer is a variable contains the address of a variable.
 * A typical machine has **an array of consecutively numbered or addressed memory cells** that may be manipulated individually or in contiguous groups. For examples,
   * any byte can be a $\texttt{char}$
   * a pair of one-byte cells can be treated as a $\texttt{short}$ integer
-  * four adjacent bytes form a $\texttt{long}$
+  * four adjacent bytes form a $\texttt{long}$ 
 * The unary operator $\texttt{&}$ gives the address of an object.
 * The unary operator $\texttt{&}$ only applies to objects in memory: variables and array elements. It cannot be applied to expressions, constants or register variables.
 * The unary operator $\texttt{*}$ is the *indirection or dereferencing* operator which can access the object an pointer points to when applied to a pointer.
